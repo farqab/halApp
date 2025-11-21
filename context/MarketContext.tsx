@@ -32,8 +32,8 @@ export const MarketProvider: React.FC<{ children: React.ReactNode }> = ({ childr
 
     const initialize = async () => {
         try {
-            await fetchData();
-            await loadPreferences();
+            const data = await fetchData();
+            await loadPreferences(data);
         } catch (e) {
             console.error("Initialization failed", e);
         } finally {
@@ -49,7 +49,7 @@ export const MarketProvider: React.FC<{ children: React.ReactNode }> = ({ childr
                 const data = await response.json();
                 setMarketData(data);
                 console.log("Fetched remote data");
-                return;
+                return data;
             }
         } catch (e) {
             console.log("Network request failed, falling back to local/mock");
@@ -69,27 +69,39 @@ export const MarketProvider: React.FC<{ children: React.ReactNode }> = ({ childr
 
         setMarketData(fallbackData);
         console.log("Loaded static fallback data");
+        return fallbackData;
     };
 
-    const loadPreferences = async () => {
+    const loadPreferences = async (data: any) => {
         try {
             const cityId = await AsyncStorage.getItem('selectedCityId');
             const districtId = await AsyncStorage.getItem('selectedDistrictId');
             const savedFavorites = await AsyncStorage.getItem('favorites');
 
+            const availableCities = data?.cities || CITIES;
+            const availableDistricts = data?.districts || DISTRICTS;
+
+            let city = null;
             if (cityId) {
-                const city = CITIES.find(c => c.id === cityId);
-                if (city) setSelectedCity(city);
-            } else {
-                setSelectedCity(CITIES.find(c => c.id === '07') || null);
+                city = availableCities.find((c: any) => c.id === cityId);
             }
 
-            if (districtId) {
-                const district = DISTRICTS.find(d => d.id === districtId);
-                if (district) setSelectedDistrict(district);
-            } else {
-                setSelectedDistrict(DISTRICTS.find(d => d.id === '07-1') || null);
+            // If saved city not found or not set, use first available
+            if (!city && availableCities.length > 0) {
+                city = availableCities.find((c: any) => c.id === '34') || availableCities[0];
             }
+            setSelectedCity(city);
+
+            let district = null;
+            if (districtId && city) {
+                district = availableDistricts.find((d: any) => d.id === districtId && d.cityId === city.id);
+            }
+
+            // If saved district not found or not set, use first available for the city
+            if (!district && city) {
+                district = availableDistricts.find((d: any) => d.cityId === city.id) || null;
+            }
+            setSelectedDistrict(district);
 
             if (savedFavorites) {
                 setFavorites(JSON.parse(savedFavorites));
