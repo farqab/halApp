@@ -17,7 +17,7 @@ const MarketContext = createContext<MarketContextType | undefined>(undefined);
 
 // URL to fetch data from (Raw GitHub content)
 // REPLACE 'YOUR_USERNAME' and 'REPO_NAME' with actual values after pushing
-const DATA_URL = 'https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/data/marketData.json';
+const DATA_URL = 'https://raw.githubusercontent.com/farqab/halApp/main/data/marketData.json';
 
 export const MarketProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const [selectedCity, setSelectedCity] = useState<City | null>(null);
