@@ -1,0 +1,1141 @@
+{
+  "lastUpdated": "2025-11-21",
+  "cities": [
+    {
+      "id": "34",
+      "name": "İstanbul"
+    },
+    {
+      "id": "06",
+      "name": "Ankara"
+    },
+    {
+      "id": "07",
+      "name": "Antalya"
+    },
+    {
+      "id": "33",
+      "name": "Mersin"
+    },
+    {
+      "id": "35",
+      "name": "İzmir"
+    }
+  ],
+  "districts": [
+    {
+      "id": "34-1",
+      "cityId": "34",
+      "name": "Bayrampaşa Hali"
+    },
+    {
+      "id": "34-2",
+      "cityId": "34",
+      "name": "Ataşehir Hali"
+    },
+    {
+      "id": "06-1",
+      "cityId": "06",
+      "name": "Ankara Toptancı Hali"
+    },
+    {
+      "id": "07-1",
+      "cityId": "07",
+      "name": "Antalya Merkez Hali"
+    },
+    {
+      "id": "07-2",
+      "cityId": "07",
+      "name": "Gazipaşa Hali"
+    },
+    {
+      "id": "07-3",
+      "cityId": "07",
+      "name": "Kumluca Hali"
+    },
+    {
+      "id": "33-1",
+      "cityId": "33",
+      "name": "Mersin Merkez Hali"
+    },
+    {
+      "id": "35-1",
+      "cityId": "35",
+      "name": "İzmir Merkez Hali"
+    }
+  ],
+  "prices": {
+    "34-34-1": [
+      {
+        "id": "1",
+        "name": "Domates (Salkım)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 30,
+        "lowPrice": 27.7,
+        "highPrice": 33.9,
+        "avgPrice": 30.8,
+        "trend": "up"
+      },
+      {
+        "id": "2",
+        "name": "Domates (Beef)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 38,
+        "lowPrice": 35.4,
+        "highPrice": 43.2,
+        "avgPrice": 39.3,
+        "trend": "up"
+      },
+      {
+        "id": "3",
+        "name": "Salatalık",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 18,
+        "lowPrice": 17,
+        "highPrice": 20.8,
+        "avgPrice": 18.9,
+        "trend": "up"
+      },
+      {
+        "id": "4",
+        "name": "Biber (Çarliston)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 24,
+        "lowPrice": 21.7,
+        "highPrice": 26.5,
+        "avgPrice": 24.1,
+        "trend": "down"
+      },
+      {
+        "id": "5",
+        "name": "Patlıcan",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 22,
+        "lowPrice": 19.6,
+        "highPrice": 24,
+        "avgPrice": 21.8,
+        "trend": "up"
+      },
+      {
+        "id": "6",
+        "name": "Patates",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 15,
+        "lowPrice": 13.4,
+        "highPrice": 16.4,
+        "avgPrice": 14.9,
+        "trend": "up"
+      },
+      {
+        "id": "7",
+        "name": "Soğan (Kuru)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 13,
+        "lowPrice": 11.1,
+        "highPrice": 13.5,
+        "avgPrice": 12.3,
+        "trend": "down"
+      },
+      {
+        "id": "8",
+        "name": "Elma (Starking)",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 25,
+        "lowPrice": 21.5,
+        "highPrice": 26.3,
+        "avgPrice": 23.9,
+        "trend": "up"
+      },
+      {
+        "id": "9",
+        "name": "Muz (Yerli)",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 40,
+        "lowPrice": 36.5,
+        "highPrice": 44.6,
+        "avgPrice": 40.5,
+        "trend": "down"
+      },
+      {
+        "id": "10",
+        "name": "Portakal (Washington)",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 18,
+        "lowPrice": 17.7,
+        "highPrice": 21.7,
+        "avgPrice": 19.7,
+        "trend": "down"
+      },
+      {
+        "id": "11",
+        "name": "Limon",
+        "category": "Meyve",
+        "unit": "kasa",
+        "basePrice": 175,
+        "lowPrice": 157.1,
+        "highPrice": 192.1,
+        "avgPrice": 174.6,
+        "trend": "up"
+      },
+      {
+        "id": "12",
+        "name": "Çilek",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 75,
+        "lowPrice": 68,
+        "highPrice": 83.2,
+        "avgPrice": 75.6,
+        "trend": "down"
+      }
+    ],
+    "34-34-2": [
+      {
+        "id": "1",
+        "name": "Domates (Salkım)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 30,
+        "lowPrice": 28.6,
+        "highPrice": 35,
+        "avgPrice": 31.8,
+        "trend": "up"
+      },
+      {
+        "id": "2",
+        "name": "Domates (Beef)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 38,
+        "lowPrice": 33.2,
+        "highPrice": 40.6,
+        "avgPrice": 36.9,
+        "trend": "up"
+      },
+      {
+        "id": "3",
+        "name": "Salatalık",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 18,
+        "lowPrice": 17.4,
+        "highPrice": 21.2,
+        "avgPrice": 19.3,
+        "trend": "up"
+      },
+      {
+        "id": "4",
+        "name": "Biber (Çarliston)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 24,
+        "lowPrice": 23.3,
+        "highPrice": 28.5,
+        "avgPrice": 25.9,
+        "trend": "down"
+      },
+      {
+        "id": "5",
+        "name": "Patlıcan",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 22,
+        "lowPrice": 20.4,
+        "highPrice": 25,
+        "avgPrice": 22.7,
+        "trend": "down"
+      },
+      {
+        "id": "6",
+        "name": "Patates",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 15,
+        "lowPrice": 14.3,
+        "highPrice": 17.5,
+        "avgPrice": 15.9,
+        "trend": "down"
+      },
+      {
+        "id": "7",
+        "name": "Soğan (Kuru)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 13,
+        "lowPrice": 13.2,
+        "highPrice": 16.2,
+        "avgPrice": 14.7,
+        "trend": "up"
+      },
+      {
+        "id": "8",
+        "name": "Elma (Starking)",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 25,
+        "lowPrice": 21.8,
+        "highPrice": 26.6,
+        "avgPrice": 24.2,
+        "trend": "up"
+      },
+      {
+        "id": "9",
+        "name": "Muz (Yerli)",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 40,
+        "lowPrice": 36.6,
+        "highPrice": 44.8,
+        "avgPrice": 40.7,
+        "trend": "down"
+      },
+      {
+        "id": "10",
+        "name": "Portakal (Washington)",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 18,
+        "lowPrice": 15.2,
+        "highPrice": 18.6,
+        "avgPrice": 16.9,
+        "trend": "up"
+      },
+      {
+        "id": "11",
+        "name": "Limon",
+        "category": "Meyve",
+        "unit": "kasa",
+        "basePrice": 175,
+        "lowPrice": 157,
+        "highPrice": 191.8,
+        "avgPrice": 174.4,
+        "trend": "down"
+      },
+      {
+        "id": "12",
+        "name": "Çilek",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 75,
+        "lowPrice": 68.9,
+        "highPrice": 84.3,
+        "avgPrice": 76.6,
+        "trend": "down"
+      }
+    ],
+    "06-06-1": [
+      {
+        "id": "1",
+        "name": "Domates (Salkım)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 30,
+        "lowPrice": 26.5,
+        "highPrice": 32.3,
+        "avgPrice": 29.4,
+        "trend": "down"
+      },
+      {
+        "id": "2",
+        "name": "Domates (Beef)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 38,
+        "lowPrice": 33.2,
+        "highPrice": 40.6,
+        "avgPrice": 36.9,
+        "trend": "up"
+      },
+      {
+        "id": "3",
+        "name": "Salatalık",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 18,
+        "lowPrice": 16.3,
+        "highPrice": 19.9,
+        "avgPrice": 18.1,
+        "trend": "up"
+      },
+      {
+        "id": "4",
+        "name": "Biber (Çarliston)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 24,
+        "lowPrice": 22.1,
+        "highPrice": 27,
+        "avgPrice": 24.5,
+        "trend": "up"
+      },
+      {
+        "id": "5",
+        "name": "Patlıcan",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 22,
+        "lowPrice": 18.4,
+        "highPrice": 22.4,
+        "avgPrice": 20.4,
+        "trend": "up"
+      },
+      {
+        "id": "6",
+        "name": "Patates",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 15,
+        "lowPrice": 12.7,
+        "highPrice": 15.5,
+        "avgPrice": 14.1,
+        "trend": "down"
+      },
+      {
+        "id": "7",
+        "name": "Soğan (Kuru)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 13,
+        "lowPrice": 11,
+        "highPrice": 13.4,
+        "avgPrice": 12.2,
+        "trend": "up"
+      },
+      {
+        "id": "8",
+        "name": "Elma (Starking)",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 25,
+        "lowPrice": 21.3,
+        "highPrice": 26.1,
+        "avgPrice": 23.7,
+        "trend": "up"
+      },
+      {
+        "id": "9",
+        "name": "Muz (Yerli)",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 40,
+        "lowPrice": 35.1,
+        "highPrice": 42.9,
+        "avgPrice": 39,
+        "trend": "up"
+      },
+      {
+        "id": "10",
+        "name": "Portakal (Washington)",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 18,
+        "lowPrice": 14.6,
+        "highPrice": 17.8,
+        "avgPrice": 16.2,
+        "trend": "down"
+      },
+      {
+        "id": "11",
+        "name": "Limon",
+        "category": "Meyve",
+        "unit": "kasa",
+        "basePrice": 175,
+        "lowPrice": 157,
+        "highPrice": 191.8,
+        "avgPrice": 174.4,
+        "trend": "down"
+      },
+      {
+        "id": "12",
+        "name": "Çilek",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 75,
+        "lowPrice": 68.2,
+        "highPrice": 83.4,
+        "avgPrice": 75.8,
+        "trend": "down"
+      }
+    ],
+    "07-07-1": [
+      {
+        "id": "1",
+        "name": "Domates (Salkım)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 30,
+        "lowPrice": 28.8,
+        "highPrice": 35.2,
+        "avgPrice": 32,
+        "trend": "up"
+      },
+      {
+        "id": "2",
+        "name": "Domates (Beef)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 38,
+        "lowPrice": 34.4,
+        "highPrice": 42,
+        "avgPrice": 38.2,
+        "trend": "up"
+      },
+      {
+        "id": "3",
+        "name": "Salatalık",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 18,
+        "lowPrice": 15.4,
+        "highPrice": 18.8,
+        "avgPrice": 17.1,
+        "trend": "down"
+      },
+      {
+        "id": "4",
+        "name": "Biber (Çarliston)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 24,
+        "lowPrice": 20.6,
+        "highPrice": 25.2,
+        "avgPrice": 22.9,
+        "trend": "down"
+      },
+      {
+        "id": "5",
+        "name": "Patlıcan",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 22,
+        "lowPrice": 21.6,
+        "highPrice": 26.4,
+        "avgPrice": 24,
+        "trend": "up"
+      },
+      {
+        "id": "6",
+        "name": "Patates",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 15,
+        "lowPrice": 12.5,
+        "highPrice": 15.3,
+        "avgPrice": 13.9,
+        "trend": "up"
+      },
+      {
+        "id": "7",
+        "name": "Soğan (Kuru)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 13,
+        "lowPrice": 12.5,
+        "highPrice": 15.3,
+        "avgPrice": 13.9,
+        "trend": "up"
+      },
+      {
+        "id": "8",
+        "name": "Elma (Starking)",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 25,
+        "lowPrice": 21.2,
+        "highPrice": 26,
+        "avgPrice": 23.6,
+        "trend": "down"
+      },
+      {
+        "id": "9",
+        "name": "Muz (Yerli)",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 40,
+        "lowPrice": 36,
+        "highPrice": 44,
+        "avgPrice": 40,
+        "trend": "up"
+      },
+      {
+        "id": "10",
+        "name": "Portakal (Washington)",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 18,
+        "lowPrice": 18,
+        "highPrice": 22,
+        "avgPrice": 20,
+        "trend": "up"
+      },
+      {
+        "id": "11",
+        "name": "Limon",
+        "category": "Meyve",
+        "unit": "kasa",
+        "basePrice": 175,
+        "lowPrice": 158.1,
+        "highPrice": 193.3,
+        "avgPrice": 175.7,
+        "trend": "up"
+      },
+      {
+        "id": "12",
+        "name": "Çilek",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 75,
+        "lowPrice": 66.2,
+        "highPrice": 80.9,
+        "avgPrice": 73.5,
+        "trend": "up"
+      }
+    ],
+    "07-07-2": [
+      {
+        "id": "1",
+        "name": "Domates (Salkım)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 30,
+        "lowPrice": 28.4,
+        "highPrice": 34.7,
+        "avgPrice": 31.5,
+        "trend": "down"
+      },
+      {
+        "id": "2",
+        "name": "Domates (Beef)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 38,
+        "lowPrice": 34.5,
+        "highPrice": 42.1,
+        "avgPrice": 38.3,
+        "trend": "up"
+      },
+      {
+        "id": "3",
+        "name": "Salatalık",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 18,
+        "lowPrice": 14.4,
+        "highPrice": 17.6,
+        "avgPrice": 16,
+        "trend": "up"
+      },
+      {
+        "id": "4",
+        "name": "Biber (Çarliston)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 24,
+        "lowPrice": 22.6,
+        "highPrice": 27.6,
+        "avgPrice": 25.1,
+        "trend": "down"
+      },
+      {
+        "id": "5",
+        "name": "Patlıcan",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 22,
+        "lowPrice": 21.6,
+        "highPrice": 26.4,
+        "avgPrice": 24,
+        "trend": "up"
+      },
+      {
+        "id": "6",
+        "name": "Patates",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 15,
+        "lowPrice": 13.8,
+        "highPrice": 16.8,
+        "avgPrice": 15.3,
+        "trend": "up"
+      },
+      {
+        "id": "7",
+        "name": "Soğan (Kuru)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 13,
+        "lowPrice": 13.1,
+        "highPrice": 16.1,
+        "avgPrice": 14.6,
+        "trend": "down"
+      },
+      {
+        "id": "8",
+        "name": "Elma (Starking)",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 25,
+        "lowPrice": 22.9,
+        "highPrice": 27.9,
+        "avgPrice": 25.4,
+        "trend": "up"
+      },
+      {
+        "id": "9",
+        "name": "Muz (Yerli)",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 40,
+        "lowPrice": 36.1,
+        "highPrice": 44.1,
+        "avgPrice": 40.1,
+        "trend": "down"
+      },
+      {
+        "id": "10",
+        "name": "Portakal (Washington)",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 18,
+        "lowPrice": 16,
+        "highPrice": 19.6,
+        "avgPrice": 17.8,
+        "trend": "up"
+      },
+      {
+        "id": "11",
+        "name": "Limon",
+        "category": "Meyve",
+        "unit": "kasa",
+        "basePrice": 175,
+        "lowPrice": 156.7,
+        "highPrice": 191.5,
+        "avgPrice": 174.1,
+        "trend": "down"
+      },
+      {
+        "id": "12",
+        "name": "Çilek",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 75,
+        "lowPrice": 68.7,
+        "highPrice": 83.9,
+        "avgPrice": 76.3,
+        "trend": "up"
+      }
+    ],
+    "07-07-3": [
+      {
+        "id": "1",
+        "name": "Domates (Salkım)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 30,
+        "lowPrice": 26.9,
+        "highPrice": 32.9,
+        "avgPrice": 29.9,
+        "trend": "down"
+      },
+      {
+        "id": "2",
+        "name": "Domates (Beef)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 38,
+        "lowPrice": 34.6,
+        "highPrice": 42.2,
+        "avgPrice": 38.4,
+        "trend": "up"
+      },
+      {
+        "id": "3",
+        "name": "Salatalık",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 18,
+        "lowPrice": 17.9,
+        "highPrice": 21.9,
+        "avgPrice": 19.9,
+        "trend": "up"
+      },
+      {
+        "id": "4",
+        "name": "Biber (Çarliston)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 24,
+        "lowPrice": 20.6,
+        "highPrice": 25.2,
+        "avgPrice": 22.9,
+        "trend": "up"
+      },
+      {
+        "id": "5",
+        "name": "Patlıcan",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 22,
+        "lowPrice": 18.8,
+        "highPrice": 23,
+        "avgPrice": 20.9,
+        "trend": "up"
+      },
+      {
+        "id": "6",
+        "name": "Patates",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 15,
+        "lowPrice": 12,
+        "highPrice": 14.6,
+        "avgPrice": 13.3,
+        "trend": "up"
+      },
+      {
+        "id": "7",
+        "name": "Soğan (Kuru)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 13,
+        "lowPrice": 13.1,
+        "highPrice": 16.1,
+        "avgPrice": 14.6,
+        "trend": "up"
+      },
+      {
+        "id": "8",
+        "name": "Elma (Starking)",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 25,
+        "lowPrice": 23,
+        "highPrice": 28.2,
+        "avgPrice": 25.6,
+        "trend": "up"
+      },
+      {
+        "id": "9",
+        "name": "Muz (Yerli)",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 40,
+        "lowPrice": 37.3,
+        "highPrice": 45.5,
+        "avgPrice": 41.4,
+        "trend": "down"
+      },
+      {
+        "id": "10",
+        "name": "Portakal (Washington)",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 18,
+        "lowPrice": 15,
+        "highPrice": 18.4,
+        "avgPrice": 16.7,
+        "trend": "down"
+      },
+      {
+        "id": "11",
+        "name": "Limon",
+        "category": "Meyve",
+        "unit": "kasa",
+        "basePrice": 175,
+        "lowPrice": 158.3,
+        "highPrice": 193.5,
+        "avgPrice": 175.9,
+        "trend": "down"
+      },
+      {
+        "id": "12",
+        "name": "Çilek",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 75,
+        "lowPrice": 66.2,
+        "highPrice": 80.9,
+        "avgPrice": 73.5,
+        "trend": "down"
+      }
+    ],
+    "33-33-1": [
+      {
+        "id": "1",
+        "name": "Domates (Salkım)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 30,
+        "lowPrice": 28.3,
+        "highPrice": 34.5,
+        "avgPrice": 31.4,
+        "trend": "up"
+      },
+      {
+        "id": "2",
+        "name": "Domates (Beef)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 38,
+        "lowPrice": 32.5,
+        "highPrice": 39.7,
+        "avgPrice": 36.1,
+        "trend": "up"
+      },
+      {
+        "id": "3",
+        "name": "Salatalık",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 18,
+        "lowPrice": 16.1,
+        "highPrice": 19.7,
+        "avgPrice": 17.9,
+        "trend": "up"
+      },
+      {
+        "id": "4",
+        "name": "Biber (Çarliston)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 24,
+        "lowPrice": 20,
+        "highPrice": 24.4,
+        "avgPrice": 22.2,
+        "trend": "up"
+      },
+      {
+        "id": "5",
+        "name": "Patlıcan",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 22,
+        "lowPrice": 19,
+        "highPrice": 23.2,
+        "avgPrice": 21.1,
+        "trend": "up"
+      },
+      {
+        "id": "6",
+        "name": "Patates",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 15,
+        "lowPrice": 13.5,
+        "highPrice": 16.5,
+        "avgPrice": 15,
+        "trend": "down"
+      },
+      {
+        "id": "7",
+        "name": "Soğan (Kuru)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 13,
+        "lowPrice": 10.3,
+        "highPrice": 12.5,
+        "avgPrice": 11.4,
+        "trend": "down"
+      },
+      {
+        "id": "8",
+        "name": "Elma (Starking)",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 25,
+        "lowPrice": 23.5,
+        "highPrice": 28.7,
+        "avgPrice": 26.1,
+        "trend": "up"
+      },
+      {
+        "id": "9",
+        "name": "Muz (Yerli)",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 40,
+        "lowPrice": 36.4,
+        "highPrice": 44.4,
+        "avgPrice": 40.4,
+        "trend": "up"
+      },
+      {
+        "id": "10",
+        "name": "Portakal (Washington)",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 18,
+        "lowPrice": 15.5,
+        "highPrice": 18.9,
+        "avgPrice": 17.2,
+        "trend": "down"
+      },
+      {
+        "id": "11",
+        "name": "Limon",
+        "category": "Meyve",
+        "unit": "kasa",
+        "basePrice": 175,
+        "lowPrice": 156.7,
+        "highPrice": 191.5,
+        "avgPrice": 174.1,
+        "trend": "down"
+      },
+      {
+        "id": "12",
+        "name": "Çilek",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 75,
+        "lowPrice": 66.8,
+        "highPrice": 81.6,
+        "avgPrice": 74.2,
+        "trend": "up"
+      }
+    ],
+    "35-35-1": [
+      {
+        "id": "1",
+        "name": "Domates (Salkım)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 30,
+        "lowPrice": 25.7,
+        "highPrice": 31.4,
+        "avgPrice": 28.5,
+        "trend": "up"
+      },
+      {
+        "id": "2",
+        "name": "Domates (Beef)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 38,
+        "lowPrice": 32.9,
+        "highPrice": 40.2,
+        "avgPrice": 36.5,
+        "trend": "down"
+      },
+      {
+        "id": "3",
+        "name": "Salatalık",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 18,
+        "lowPrice": 14.7,
+        "highPrice": 17.9,
+        "avgPrice": 16.3,
+        "trend": "down"
+      },
+      {
+        "id": "4",
+        "name": "Biber (Çarliston)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 24,
+        "lowPrice": 21.9,
+        "highPrice": 26.7,
+        "avgPrice": 24.3,
+        "trend": "up"
+      },
+      {
+        "id": "5",
+        "name": "Patlıcan",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 22,
+        "lowPrice": 18.4,
+        "highPrice": 22.4,
+        "avgPrice": 20.4,
+        "trend": "down"
+      },
+      {
+        "id": "6",
+        "name": "Patates",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 15,
+        "lowPrice": 13.4,
+        "highPrice": 16.4,
+        "avgPrice": 14.9,
+        "trend": "down"
+      },
+      {
+        "id": "7",
+        "name": "Soğan (Kuru)",
+        "category": "Sebze",
+        "unit": "kg",
+        "basePrice": 13,
+        "lowPrice": 10.9,
+        "highPrice": 13.3,
+        "avgPrice": 12.1,
+        "trend": "down"
+      },
+      {
+        "id": "8",
+        "name": "Elma (Starking)",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 25,
+        "lowPrice": 21,
+        "highPrice": 25.6,
+        "avgPrice": 23.3,
+        "trend": "down"
+      },
+      {
+        "id": "9",
+        "name": "Muz (Yerli)",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 40,
+        "lowPrice": 35.6,
+        "highPrice": 43.5,
+        "avgPrice": 39.5,
+        "trend": "down"
+      },
+      {
+        "id": "10",
+        "name": "Portakal (Washington)",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 18,
+        "lowPrice": 17.3,
+        "highPrice": 21.1,
+        "avgPrice": 19.2,
+        "trend": "down"
+      },
+      {
+        "id": "11",
+        "name": "Limon",
+        "category": "Meyve",
+        "unit": "kasa",
+        "basePrice": 175,
+        "lowPrice": 158.9,
+        "highPrice": 194.3,
+        "avgPrice": 176.6,
+        "trend": "down"
+      },
+      {
+        "id": "12",
+        "name": "Çilek",
+        "category": "Meyve",
+        "unit": "kg",
+        "basePrice": 75,
+        "lowPrice": 66,
+        "highPrice": 80.6,
+        "avgPrice": 73.3,
+        "trend": "down"
+      }
+    ]
+  }
+}
