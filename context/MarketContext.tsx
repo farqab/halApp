@@ -64,7 +64,7 @@ export const MarketProvider: React.FC<{ children: React.ReactNode }> = ({ childr
 
         // Generate prices map from static data
         DISTRICTS.forEach(d => {
-            fallbackData.prices[`${d.cityId}-${d.id}`] = getMarketPrices(d.cityId, d.id);
+            fallbackData.prices[d.id] = getMarketPrices(d.cityId, d.id);
         });
 
         setMarketData(fallbackData);

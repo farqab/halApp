@@ -15,8 +15,8 @@ export default function HomeScreen() {
         if (!selectedCity || !selectedDistrict || !marketData) return [];
 
         // Look up prices in the fetched data
-        const key = `${selectedCity.id}-${selectedDistrict.id}`;
-        return marketData.prices[key] || [];
+        // Key is just the district ID (e.g., "34-1")
+        return marketData.prices[selectedDistrict.id] || [];
     }, [selectedCity, selectedDistrict, marketData]);
 
     const filteredItems = useMemo(() => {
