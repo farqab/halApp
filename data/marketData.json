@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-05",
+  "lastUpdated": "2025-12-06",
   "cities": [
     {
       "id": "34",
@@ -59,7 +59,7 @@
         "lowPrice": 25,
         "highPrice": 35,
         "avgPrice": 30,
-        "trend": "down"
+        "trend": "up"
       },
       {
         "id": "100-1",
@@ -79,7 +79,7 @@
         "lowPrice": 30,
         "highPrice": 40,
         "avgPrice": 35,
-        "trend": "up"
+        "trend": "down"
       },
       {
         "id": "100-3",
@@ -89,7 +89,7 @@
         "lowPrice": 20,
         "highPrice": 28,
         "avgPrice": 24,
-        "trend": "up"
+        "trend": "down"
       },
       {
         "id": "100-4",
@@ -173,7 +173,7 @@
         "lowPrice": 25,
         "highPrice": 35,
         "avgPrice": 30,
-        "trend": "down"
+        "trend": "up"
       },
       {
         "id": "300-2",
@@ -215,7 +215,7 @@
         "lowPrice": 35,
         "highPrice": 45,
         "avgPrice": 40,
-        "trend": "down"
+        "trend": "up"
       },
       {
         "id": "400-2",
@@ -225,7 +225,7 @@
         "lowPrice": 60,
         "highPrice": 80,
         "avgPrice": 70,
-        "trend": "down"
+        "trend": "up"
       }
     ],
     "35-1": [
@@ -237,7 +237,7 @@
         "lowPrice": 25,
         "highPrice": 35,
         "avgPrice": 30,
-        "trend": "down"
+        "trend": "up"
       },
       {
         "id": "500-1",
@@ -257,7 +257,7 @@
         "lowPrice": 80,
         "highPrice": 120,
         "avgPrice": 100,
-        "trend": "up"
+        "trend": "down"
       }
     ]
   }
