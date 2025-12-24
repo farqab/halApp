@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-23",
+  "lastUpdated": "2025-12-24",
   "cities": [
     {
       "id": "34",
@@ -59,7 +59,7 @@
         "lowPrice": 25,
         "highPrice": 35,
         "avgPrice": 30,
-        "trend": "up"
+        "trend": "down"
       },
       {
         "id": "100-1",
@@ -69,7 +69,7 @@
         "lowPrice": 20,
         "highPrice": 25,
         "avgPrice": 22.5,
-        "trend": "up"
+        "trend": "down"
       },
       {
         "id": "100-2",
@@ -89,7 +89,7 @@
         "lowPrice": 20,
         "highPrice": 28,
         "avgPrice": 24,
-        "trend": "up"
+        "trend": "down"
       },
       {
         "id": "100-4",
@@ -99,7 +99,7 @@
         "lowPrice": 25,
         "highPrice": 35,
         "avgPrice": 30,
-        "trend": "up"
+        "trend": "down"
       },
       {
         "id": "100-5",
@@ -151,7 +151,7 @@
         "lowPrice": 8,
         "highPrice": 12,
         "avgPrice": 10,
-        "trend": "up"
+        "trend": "down"
       }
     ],
     "07-1": [
@@ -163,7 +163,7 @@
         "lowPrice": 15,
         "highPrice": 25,
         "avgPrice": 20,
-        "trend": "up"
+        "trend": "down"
       },
       {
         "id": "300-1",
@@ -173,7 +173,7 @@
         "lowPrice": 25,
         "highPrice": 35,
         "avgPrice": 30,
-        "trend": "up"
+        "trend": "down"
       },
       {
         "id": "300-2",
@@ -183,7 +183,7 @@
         "lowPrice": 10,
         "highPrice": 15,
         "avgPrice": 12.5,
-        "trend": "down"
+        "trend": "up"
       },
       {
         "id": "300-3",
@@ -193,7 +193,7 @@
         "lowPrice": 15,
         "highPrice": 30,
         "avgPrice": 22.5,
-        "trend": "up"
+        "trend": "down"
       }
     ],
     "33-1": [
@@ -237,7 +237,7 @@
         "lowPrice": 25,
         "highPrice": 35,
         "avgPrice": 30,
-        "trend": "down"
+        "trend": "up"
       },
       {
         "id": "500-1",
@@ -257,7 +257,7 @@
         "lowPrice": 80,
         "highPrice": 120,
         "avgPrice": 100,
-        "trend": "down"
+        "trend": "up"
       }
     ]
   }
